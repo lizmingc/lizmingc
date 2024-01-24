@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+	int j, k, sum = 0;
+	for (j = 2;j <= 100; j++){
+		for (k = 2;k < j;k++){
+			if (j%k==0){
+				break;}
+		}
+		if (j==k){
+			sum = sum + j;
+		}
+  }
+	printf("sum=%d", sum);
+}
