@@ -1,1 +1,1 @@
-liziming，Chinese student。。。
+liziming，Chinese student.
